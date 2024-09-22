@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+
+    <!--Open Graph-->
+    <!-- HTML Meta Tags -->
+    <title>Kiara Jazmin Arce | Invitación de cumpleaños</title>
+    <meta
+      name="description"
+      content="Es un dia soñado y esperado, quiero compartir con vos esta noche inolvidable."
+    />
+
+    <!-- Facebook Meta Tags -->
+    <meta
+      property="og:url"
+      content="https://guswebdev.github.io/invitacion-digital-1/"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Kiara Jazmin Arce | Invitación de cumpleaños"
+    />
+    <meta
+      property="og:description"
+      content="Es un dia soñado y esperado, quiero compartir con vos esta noche inolvidable."
+    />
+    <meta
+      property="og:image"
+      content="https://opengraph.b-cdn.net/production/images/52c5740c-401a-4278-8120-fba1e1e896ae.jpg?token=xMvgt3wRBRvWUJR-jLEC38V1SpGZcI9-MysNV0g2rR4&height=1027&width=1200&expires=33262962857"
+    />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="guswebdev.github.io" />
+    <meta
+      property="twitter:url"
+      content="https://guswebdev.github.io/invitacion-digital-1/"
+    />
+    <meta
+      name="twitter:title"
+      content="Kiara Jazmin Arce | Invitación de cumpleaños"
+    />
+    <meta
+      name="twitter:description"
+      content="Es un dia soñado y esperado, quiero compartir con vos esta noche inolvidable."
+    />
+    <meta
+      name="twitter:image"
+      content="https://opengraph.b-cdn.net/production/images/52c5740c-401a-4278-8120-fba1e1e896ae.jpg?token=xMvgt3wRBRvWUJR-jLEC38V1SpGZcI9-MysNV0g2rR4&height=1027&width=1200&expires=33262962857"
+    />
+
+    <!--Open Graph-->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <video
+      class="hero-video"
+      src="assets/video/video-1.mp4"
+      autoplay
+      muted
+      preload="”metadata”"
+      loop
+    ></video>
+    <header class="header">
+      <div class="bg-black-opacity"></div>
+      <div class="container">
+        <audio></audio>
+        <div class="btns">
+          <span>
+            <i class="fa-solid fa-circle-play" data-play></i>
+          </span>
+          <span class="d-none">
+            <i class="fa-solid fa-circle-pause" data-pause></i>
+          </span>
+        </div>
+        <span>¡Dale Play!</span>
+        <h3 data-header-title>Mis 15 años</h3>
+        <h2 data-header-nombre>Jazmin</h2>
+        <p class="descripcion" data-header-descripcion>
+          "Es un dia soñado y esperado, quiero compartir con vos esta noche
+          inolvidable"
+        </p>
+      </div>
+    </header>
+    <hr class="hr-header" />
+    <main>
+      <div class="container">
+        <article class="container-img" data-img-1>
+          <img class="foto-1" src="assets/img/foto-1.jpeg" alt="" />
+        </article>
+        <hr />
+        <section class="contador">
+          <div class="container" data-contador>
+            <h3 class="contador-title" data-contador-title>
+              Fecha del evento:
+            </h3>
+            <h2 class="contador-fecha" data-fecha>16 de noviembre, 2024</h2>
+            <h3 class="contador-title" data-contador-title-2>¿Cuanto Falta?</h3>
+            <article class="grid-contador" data-grid-contador>
+              <div class="num-dias">
+                <div class="dias-cen card-num" data-cenDias></div>
+                <div class="dias-dec card-num" data-decDias></div>
+                <div class="dias-uni card-num" data-uniDias></div>
+              </div>
+              <div class="puntos puntos-1">:</div>
+              <div class="num-horas">
+                <div class="horas-dec card-num" data-decHoras></div>
+                <div class="horas-uni card-num" data-uniHoras></div>
+              </div>
+              <div class="puntos puntos-2">:</div>
+              <div class="num-minutos">
+                <div class="minutos-dec card-num" data-decMinutos></div>
+                <div class="minutos-uni card-num" data-uniMinutos></div>
+              </div>
+              <div class="puntos puntos-3">:</div>
+              <div class="num-segundos">
+                <div class="segundos-dec card-num" data-decSegundos></div>
+                <div class="segundos-uni card-num" data-uniSegundos></div>
+              </div>
+              <div class="contador-text text-dias">dias</div>
+              <div class="contador-text text-hs">hs</div>
+              <div class="contador-text text-min">min</div>
+              <div class="contador-text text-seg">seg</div>
+            </article>
+          </div>
+        </section>
+        <hr />
+        <article class="container-img" data-img-2>
+          <img class="foto-2" src="assets/img/foto-2.jpeg" alt="" />
+        </article>
+        <hr />
+        <section class="informacion" data-informacion>
+          <h3>Festejo</h3>
+          <article>
+            <h4>Lugar</h4>
+            <p>Eventos Azul</p>
+          </article>
+          <article>
+            <h4>Ubicacion</h4>
+            <p>Isabel de Barnes 3386 - Pontevedra</p>
+          </article>
+          <article>
+            <h4>Horario</h4>
+            <p>21:00 hs - 05:00 hs</p>
+          </article>
+          <article>
+            <h4>Vestimenta</h4>
+            <p>Elegante Sport</p>
+          </article>
+          <a
+            class="btn-informacion"
+            href="https://maps.app.goo.gl/5nXq1aJUHskLW6Ge6"
+            target="_blank"
+            >¿Como Llegar?</a
+          >
+        </section>
+        <hr />
+        <article class="container-img" data-img-3>
+          <img class="foto-3" src="assets/img/foto-3.jpeg" alt="" />
+        </article>
+        <hr />
+        <section class="regalo" data-regalo>
+          <h3>Regalos</h3>
+          <p>
+            <strong>Mi mejor regalo</strong>, en este dia tan especial, es
+            <strong>tu presencia</strong>. Pero si deseas darme un regalo podes
+            ponerlo en un sobre o podes usar mi <strong>alias</strong>
+          </p>
+          <h4>
+            Alias:
+            <span data-alias="kiarajazminarce.26" data-id="alias"
+              >kiarajazminarce.26</span
+            >
+          </h4>
+          <span class="mensaje-copiado d-none" data-copiado
+            >¡Alias Copiado!</span
+          >
+        </section>
+        <hr />
+        <article class="container-img" data-img-4>
+          <img class="foto-4" src="assets/img/foto-1.jpeg" alt="" />
+        </article>
+        <hr />
+        <section class="asistencia" data-asistencia>
+          <h3>Confirma tu asistencia</h3>
+          <p>
+            Para mi es muy importante que confirmes esta invitacion, o que me
+            cuentes si no me puedes acompañar.
+          </p>
+          <a
+            href="https://api.whatsapp.com/send?phone=541168366427&text=Hola%20Jazmin%2C%20quiero%20confirmar%20mi%20asistencia%20a%20tu%20cumple%20de%2015%20a%C3%B1os.%20"
+            class="btn-contacto"
+            target="_blank"
+            >WhatsApp</a
+          >
+        </section>
+        <section class="invitacion">
+          <h2>¡Los Espero!</h2>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <p>
+        &copy;
+        <strong
+          >2024
+          <a href="https://wa.link/iwg1bd" target="_blank" rel="noopener"
+            >Gustavo Miño</a
+          ></strong
+        >
+        - Todos los derechos reservados
+      </p>
+    </footer>
+    <script src="script.js" defer></script>
+  </body>
+</html>
