@@ -16,7 +16,7 @@ const $hours = d.querySelector(`[data-hours]`);
 const $min = d.querySelector(`[data-minutes]`);
 const $seconds = d.querySelector(`[data-seconds]`);
 
-const fecha = new Date(2024, 10, 16, 21, 0, 0, 0);
+const fecha = new Date(2025, 11, 16, 21, 0, 0, 0);
 
 const $headerTitle = d.querySelector(`[data-header-title]`);
 const $headerName = d.querySelector(`[data-header-nombre]`);
